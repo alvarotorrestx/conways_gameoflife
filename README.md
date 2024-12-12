@@ -14,8 +14,7 @@ This is a C++ implementation of Conway's **Game of Life**, featuring a GUI built
 
 ---
 ## Video Demo
-https://github.com/user-attachments/assets/48848c45-fdfc-48fc-8f4e-ca2692e2eb0e
-
+https://github.com/user-attachments/assets/2dce3c53-c17e-4cdd-b8bb-62a45d76863b
 
 
 ## Screenshots
