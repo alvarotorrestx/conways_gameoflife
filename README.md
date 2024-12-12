@@ -60,7 +60,7 @@ To build and run this project, ensure you have the following installed:
 6. **Run the Debugger**:
    - Run the Local Windows Debugger to build and run the project.
   
-7. **Enjoy!**:
+7. **Enjoy**:
    - Have fun with the project!
 
 ---
