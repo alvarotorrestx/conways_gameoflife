@@ -140,14 +140,21 @@ MainWindow::MainWindow()
 
 	// Add the view menu to the main menu bar
 	pMenuBar->Append(pViewMenu, "View");
+
+	// Randomize menu create
+	wxMenu* pRandomizeMenu = new wxMenu();
+	pRandomizeMenu->Append(MENU_OPTIONS_RANDOMIZE_ID, "Randomize (Time)");
+	pRandomizeMenu->Append(MENU_OPTIONS_RANDOMIZE_WITH_SEED_ID, "Randomize (Seed)");
+
+	// Add the Randomize menu to the menu bar
+	pMenuBar->Append(pRandomizeMenu, "Randomize");
+
 	
 	// Options menu create
 	wxMenu* pOptionsMenu = new wxMenu();
 	// Add a Settings option to the options menu
 	pOptionsMenu->Append(MENU_OPTIONS_SETTINGS_ID, "Settings");
 	pOptionsMenu->Append(MENU_OPTIONS_RESET_SETTINGS_ID, "Reset to Default Settings");
-	pOptionsMenu->Append(MENU_OPTIONS_RANDOMIZE_ID, "Randomize (Time)");
-	pOptionsMenu->Append(MENU_OPTIONS_RANDOMIZE_WITH_SEED_ID, "Randomize (Seed)");
 
 	// Add the Option menu to the menu bar
 	pMenuBar->Append(pOptionsMenu, "Options");
