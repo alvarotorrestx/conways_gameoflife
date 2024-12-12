@@ -16,13 +16,16 @@ This is a C++ implementation of Conway's **Game of Life**, featuring a GUI built
 
 ## Screenshots
 #### **Default Settings:**
-![image](https://github.com/user-attachments/assets/ae0aa486-fe69-4097-922b-4a1d6214ce82) 
+![image](https://github.com/user-attachments/assets/1a91d2b3-7e94-4d2f-9dbc-4540c49da711)
+
 
 #### **Customizable Game Board:** 
-![image](https://github.com/user-attachments/assets/49d5e27b-f1a3-4614-8781-49a08ef00dc6)
+![image](https://github.com/user-attachments/assets/e706e687-3c1d-445c-ba64-a0650ba9f333)
+
 
 #### **Living Cell & Generation Counting**
-![image](https://github.com/user-attachments/assets/e6ae5beb-c4bd-41dd-947d-1ef760438a6f) ![image](https://github.com/user-attachments/assets/c429adb9-69cd-4ae2-90e1-3a0d9453bcab)
+![image](https://github.com/user-attachments/assets/2c3633c5-e5e9-46cd-9971-ba08c6d129af) ![image](https://github.com/user-attachments/assets/89a20f1e-bef8-4b0d-9826-20a8eca6ba7f)
+
 
 
 ---
@@ -30,15 +33,42 @@ This is a C++ implementation of Conway's **Game of Life**, featuring a GUI built
 ## Getting Started
 
 ### Prerequisites
-To build and run this project, you need:
+To build and run this project, ensure you have the following installed:
 - A C++17 or later compiler.
-- The `wxWidgets` library (properly built and configured on your system).
-- Visual Studio or another compatible C++ IDE/compiler.
+- Visual Studio 2022 or another compatible C++ IDE/compiler.
 - Git (to clone this repository).
 
+---
+
 ### Setup Instructions
-1. Click the "Fork" button in the top right corner of the page.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/GameOfLife.git
-   cd GameOfLife
+1. **Fork the Repository**:
+   - Click the "Fork" button in the top-right corner of the repository page to create your own copy of the project.
+
+2. **Clone the Repository**:
+   - Clone your forked repository:
+     ```bash
+     git clone https://github.com/yourusername/GameOfLife.git
+     cd GameOfLife
+     ```
+
+3. **Unzip the Binaries**:
+   - Locate the `Binaries.zip` file in the project directory.
+   - Unzip it into the `Binaries` folder.
+
+4. **Open the Solution**:
+   - Open `GameOfLife.sln` in Visual Studio.
+
+5. **Set Build Configuration**:
+   - Ensure the build configuration is set to **Debug**.
+
+6. **Run the Debugger**:
+   - Run the Local Windows Debugger to build and run the project.
+  
+7. **Enjoy**:
+   - Have fun with the project!
+
+---
+
+## Notes
+- The repository includes prebuilt `wxWidgets` binaries, so you don't need to configure `wxWidgets` manually.
+- For any issues or questions, feel free to raise an issue on the repository page.
