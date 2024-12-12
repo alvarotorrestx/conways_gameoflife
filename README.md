@@ -13,6 +13,10 @@ This is a C++ implementation of Conway's **Game of Life**, featuring a GUI built
 - Ability to save and load patterns.
 
 ---
+## Video Demo
+https://github.com/user-attachments/assets/48848c45-fdfc-48fc-8f4e-ca2692e2eb0e
+
+
 
 ## Screenshots
 #### **Default Settings:**
